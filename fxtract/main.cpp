@@ -72,7 +72,7 @@ void printPair(Fx& mate1, Fx& mate2, std::ostream& out) {
 }
 
 void usage() {
-    std::cout<< "fxtract [-hHv] -f pattern_file | pattern <read1.fx> [<read2.fx>]\n";
+    std::cout<< "fxtract [-hHv] -f <pattern_file|pattern> <read1.fx> [<read2.fx>]\n";
     std::cout<<"\t-H           Evaluate patterns in the context of headers (default: sequences)\n";
     //std::cout<<"\t-j           Force bzip2 formatting\n";
     //std::cout<<"\t-q           Force fastq formatting\n";
